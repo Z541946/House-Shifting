@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Shifting</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">House Shifting <i class="fa-solid fa-truck-moving"></i></a>
+            </div>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#room-search">Room Search</a></li>
+                <li><a href="#roommate-matching">Roommate Match</a></li>
+                <li><a href="#furniture-marketplace">Marketplace</a></li>
+                <li><a href="#location-intelligence">Location</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><button class="nav-btn" id="loginBtn">Login</button></li>
+                <li><button class="nav-btn nav-signup" id="signupBtn">Sign Up</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Seamless House Shifting Services</h1>
+                <p>Your trusted partner for a smooth and stress-free move.</p>
+                <a href="#contact" class="cta-button">Get a Free Quote</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="wave-divider">
+                <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#f8fafc" d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z"></path></svg>
+            </div>
+            <div class="services-container">
+                <h2>Our Services</h2>
+                <p class="services-subtitle">We offer a complete range of house shifting solutions to make your move effortless and stress-free.</p>
+                <div class="service-cards">
+                    <div class="card">
+                        <i class="fa-solid fa-truck-fast service-icon"></i>
+                        <h3>Local Shifting</h3>
+                        <p>Reliable and efficient shifting services within the city.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-route service-icon"></i>
+                        <h3>Interstate Shifting</h3>
+                        <p>Move to a new state with our expert packing and moving services.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-box-open service-icon"></i>
+                        <h3>Packing & Unpacking</h3>
+                        <p>Professional packing and unpacking services to save you time and effort.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of experienced professionals dedicated to providing top-notch house shifting services. Our mission is to make your relocation experience as smooth as possible.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Smart Room Search -->
+        <section id="room-search">
+            <div class="feature-section">
+                <h2><i class="fa-solid fa-magnifying-glass-location"></i> Smart Room Search</h2>
+                <p>Find the perfect room for your needs with our intelligent search tool.</p>
+                <form class="room-search-form">
+                    <input type="text" placeholder="Enter city, area, or landmark..." required>
+                    <button type="submit" class="cta-button"><i class="fa-solid fa-search"></i> Search</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Roommate Matching -->
+        <section id="roommate-matching">
+            <div class="feature-section">
+                <h2><i class="fa-solid fa-user-friends"></i> Roommate Matching</h2>
+                <p>Get matched with compatible roommates based on your preferences and lifestyle.</p>
+                <a href="#contact" class="cta-button">Find a Roommate</a>
+            </div>
+        </section>
+
+        <!-- Furniture Marketplace -->
+        <section id="furniture-marketplace">
+            <div class="feature-section">
+                <h2><i class="fa-solid fa-couch"></i> Furniture Marketplace</h2>
+                <p>Buy and sell quality furniture for your new home. Explore our marketplace for the best deals!</p>
+                <a href="#" class="cta-button">Browse Marketplace</a>
+            </div>
+        </section>
+
+        <!-- Location Intelligence -->
+        <section id="location-intelligence">
+            <div class="feature-section">
+                <h2><i class="fa-solid fa-map-location-dot"></i> Location Intelligence</h2>
+                <p>Discover neighborhoods with smart insights: safety, amenities, commute, and more.</p>
+                <a href="#" class="cta-button">Explore Locations</a>
+            </div>
+        </section>
+
+        <!-- Verified Reviews -->
+        <section id="reviews">
+            <div class="feature-section">
+                <h2><i class="fa-solid fa-star"></i> Verified Reviews</h2>
+                <div class="reviews-list">
+                    <div class="review-card">
+                        <p>"The moving service was fast and professional. Highly recommended!"</p>
+                        <span class="reviewer">– Sarah K. <i class="fa-solid fa-circle-check verified"></i></span>
+                    </div>
+                    <div class="review-card">
+                        <p>"Found a great roommate and a cozy room in just a few days!"</p>
+                        <span class="reviewer">– Alex P. <i class="fa-solid fa-circle-check verified"></i></span>
+                    </div>
+                    <div class="review-card">
+                        <p>"The furniture marketplace helped me furnish my new place affordably."</p>
+                        <span class="reviewer">– Priya S. <i class="fa-solid fa-circle-check verified"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How HouseShift Works Section -->
+        <section id="how-it-works">
+            <div class="feature-section how-works-section">
+                <h2><i class="fa-solid fa-compass"></i> How HouseShift Works</h2>
+                <div class="how-steps">
+                    <div class="how-step">
+                        <div class="how-icon"><i class="fa-solid fa-magnifying-glass-location"></i></div>
+                        <h3>Search & Discover</h3>
+                        <p>Find the best rooms, roommates, furniture, and moving services tailored to your needs.</p>
+                    </div>
+                    <div class="how-step">
+                        <div class="how-icon"><i class="fa-solid fa-user-check"></i></div>
+                        <h3>Connect & Verify</h3>
+                        <p>Chat with verified users, check profiles, and ensure a safe, trusted experience.</p>
+                    </div>
+                    <div class="how-step">
+                        <div class="how-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                        <h3>Book & Secure</h3>
+                        <p>Reserve your room or service securely with our easy booking system.</p>
+                    </div>
+                    <div class="how-step">
+                        <div class="how-icon"><i class="fa-solid fa-truck-moving"></i></div>
+                        <h3>Move & Settle</h3>
+                        <p>Enjoy a smooth move and settle into your new home with confidence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 House Shifting. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeLogin">&times;</span>
+            <h2>Login</h2>
+            <form class="modal-form">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="cta-button">Login</button>
+            </form>
+            <p class="modal-switch">Don't have an account? <a href="#" id="switchToSignup">Sign Up</a></p>
+        </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeSignup">&times;</span>
+            <h2>Sign Up</h2>
+            <form class="modal-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="cta-button">Sign Up</button>
+            </form>
+            <p class="modal-switch">Already have an account? <a href="#" id="switchToLogin">Login</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>    
